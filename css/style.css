@@ -1,0 +1,27 @@
+.lego {display: flex; flex-wrap: wrap; width:1920px; height: 1080px;
+    background: url('file:///C:/Users/82107/Desktop/LEGO/image/her.jpg');
+    background-repeat : no-repeat;
+    background-position: 0;
+
+}
+
+
+.box.white {
+    background-color: transparent;
+}
+
+.box.white .circle {
+    background-color: transparent;  
+}
+
+.svg{
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+
+
+.box {width:12px; height:12px; background-color: #fe3000; padding: 2.4px; }
+
+.circle {width:7px; height:7px; background-color: #ff6d54; border-radius: 50%; }
